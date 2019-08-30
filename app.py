@@ -26,9 +26,10 @@ def load_services(filename):
 def print_services(services):
     print("These are the services we offer:")
     for key, value in services.items():
-        number_of_dots = 20 - len(key) - len(str(value))
+        price = value.get('price')
+        number_of_dots = 20 - len(key) - len(str(price))
         print("\t{}{}${:.2f}".format(
-            key, '.' * number_of_dots, value['price']))
+            key, '.' * number_of_dots, price))
     print('Which service would you like to order today?\n')
 
 
