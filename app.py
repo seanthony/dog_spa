@@ -6,7 +6,7 @@ TRANSACTIONS_FILENAME = "./transactions.py"
 
 def print_welcome_message():
     print("""
-                        .--~~,__
+                         .--~~,__
             :-....,-------`~~'._.'
             `-,,,  ,_      ;'~U'
             _,-' ,'`-__; '--.
@@ -16,8 +16,8 @@ def print_welcome_message():
 
 
 def dog_spa():
-    print_welcome_message():
-        # Keep writing code here!
+    print_welcome_message()
+    # Keep writing code here!
 
 
 if __name__ == '__main__':
