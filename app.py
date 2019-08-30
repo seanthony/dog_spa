@@ -1,7 +1,8 @@
+from json import load
 # Import modules here!
 
-SERVICES_FILENAME = "./services.py"
-TRANSACTIONS_FILENAME = "./transactions.py"
+SERVICES_FILENAME = "./services.json"
+TRANSACTIONS_FILENAME = "./transactions.txt"
 
 
 def print_welcome_message():
@@ -17,7 +18,6 @@ def print_welcome_message():
 
 def dog_spa():
     print_welcome_message()
-    # Keep writing code here!
 
 
 if __name__ == '__main__':
