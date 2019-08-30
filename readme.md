@@ -22,6 +22,5 @@ Skills Used:
 * for and while iterations
 * user input/output
 * string formatting and methods
-* basic calculations
 * branching
 * importing modules
