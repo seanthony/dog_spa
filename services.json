@@ -13,7 +13,7 @@
             "price": 10.0
         },
         "play": {
-            "play": "play",
+            "name": "play",
             "price": 20.0
         }
     }
